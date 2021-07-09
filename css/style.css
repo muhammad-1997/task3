@@ -1,3 +1,9 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
 .head{
 	width: 100%;
 	height: auto;
@@ -12,6 +18,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 10px;
 	
 }
 .title i{
@@ -142,10 +149,12 @@ ul > li >a{
 	justify-content: space-between;
 	background: rgba(10, 10, 10, 0.8);
 	justify-content: center;
+
 }
 .info .form{
 	width: 55%;
 	margin-top: 5%;
+	margin-bottom: 60px;
 }
 .form label{
 	color: #fff;
@@ -183,10 +192,18 @@ ul > li >a{
 .info .contact{
 	width: 35%;
 	margin-top: 5%;
+	margin-bottom: 60px;
 
 }
 .contact h2 , p{
 	color: white;
+}
+.footer{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	background: rgb(150, 150, 150);
 }
 
 
@@ -226,6 +243,16 @@ ul > li >a{
 	 .contact , .form{
 	 	margin-left: 15%;
 	 }
+	 .footer{
+	 	flex-direction: column;
+	 	justify-content: center;
+
+	 }
+	 .footer div{
+	 	margin-left: 15%;
+	 }
+	 
+
 	 
 	 
 	 
